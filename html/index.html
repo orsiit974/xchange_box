@@ -1,0 +1,24 @@
+<html>
+
+<head>
+<script>
+function setHref() {
+	document.getElementById('modify-me').href = window.location.protocol + "//" + window.location.hostname + ":8000/";
+}
+</script>
+</head>
+
+<body onload="setHref()">
+Welcome to exchange box ! 
+
+
+Go to chat (don't forget to click connect before chatting): 
+<p><a href="chat.html"> chat box</a></p>
+
+Go to upload files : 
+<p><a href="/" id="modify-me">Upload a file</a></p>
+
+Go to  : 
+<p><a href="files" >Browse Uploaded Files</a></p>
+</body>
+</html>
